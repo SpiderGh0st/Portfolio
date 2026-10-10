@@ -28,7 +28,7 @@ export const experience = [
   },
   {
     company: 'Security Wall',
-    role: 'Cybersecurity Experience',
+    role: 'Penetration Tester',
     duration: '1+ year',
     note: [
     'Carried out penetration testing tasks and workflows within authorized scope.',
@@ -70,7 +70,7 @@ export const projects: Project[] = [
   { name: 'Security Research & Labs', category: 'Security Research and Labs', label: 'Editable project set', description: 'A dedicated space for verified write-ups, controlled lab research, and technical experiments. Add additional public repositories as they are confirmed.', scope: 'Research notes, reproducible lab observations, defensive recommendations.', tools: ['Python', 'Git', 'Linux'], impact: 'Makes technical learning visible while keeping client-sensitive work private.', recommendation: 'Publish only sanitized evidence, clear scope, and remediation-focused conclusions.' },
 ];
 
-export const findings = { critical: 15, high: 18, medium: 77, low: 66, criticalHigh: 33, total: 176 };
+export const findings = { critical: 15, high: 18, medium: 77, low: 66, criticalHigh: 33, total: 176+ };
 
 export const criticalFindings = [
   { title: 'SQL injection', text: 'Unsanitized input reaching database queries, allowing data extraction or modification. Fix: parameterized queries and least-privilege database accounts.' },
